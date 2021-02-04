@@ -1,7 +1,7 @@
 # LinearReg_Boston
 Boston house price prediction using Linear Regression
 
-What we doing-
+What we doing :-
 * Using dataset from the sklearn.datasets.
 * Checking how the data is distributed using distplot.
 * The correlation of the dataset.
