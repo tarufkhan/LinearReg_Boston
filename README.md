@@ -15,7 +15,7 @@ What we did and what's the result :-
 * In the feature selection we noticed that if we drop the column ‘B’, the R2 and Adjusted R2 value doesn’t get affected. So we consider dropping it.
 * The maximum R2 value from OLS is **0.7285642659832583** and the Adjusted R2 is **0.7225201504484726** which is good enough for us. The selected columns were CRIM, ZN, INDUS, RAD, TAX, LSTAT, PRATIO, AGE, NOX, DIS and RM.
 * Now we will check the Multicollinearity but before that we will standardise the data using Standard Scaler. 
-* On checking Multicollinearity by using the VIF function, we get that our features have a vif value in the range of 1-10. So we can work with that.
+* On checking Multicollinearity by using the VIF function, we get that our features have vif values in the range of 1-10. So we can work with that.
 * Now let’s split the data into training and testing then fit the training data into a Linear Regression model from sklearn.
 * The R2 value on training data is **0.7135219460026734** and the Adjusted R2 value on the same data is **0.7049354103242793**.
 * The testing data is giving a R2 value of **0.7592818807272528** and Adjusted R2 value is **0.7362566693185553** which is good for us.
