@@ -1,5 +1,4 @@
-# LinearReg_Boston
-Boston house price prediction using Linear Regression
+## Boston house price prediction using Linear Regression
 
 What we did and what's the result :-
 * Import all the required libraries/modules.
